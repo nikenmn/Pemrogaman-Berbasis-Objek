@@ -42,9 +42,8 @@ public class Gerbong {
     }
 
     public void setPenumpang(Penumpang penumpang, int nomor) {
-        if(!(this.arrayKursi[nomor - 2] == nomor)) {
         this.arrayKursi[nomor - 1].setPenumpang(penumpang);
-        this.arrayKursi[nomor - 1].setNomor(String.valueOf(nomor)); }
+        this.arrayKursi[nomor - 1].setNomor(String.valueOf(nomor));
     }
 
 
